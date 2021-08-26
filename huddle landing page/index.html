@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>
+      Frontend Mentor | Huddle landing page with alternating feature blocks
+    </title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <header class="hero">
+      <nav class="hero__navigation">
+        <img src="images/logo.svg" alt="logo" class="hero__logo" />
+        <button class="hero__btn-try">Try it for free</button>
+      </nav>
+      <div class="container">
+        <div class="hero__text">
+          <h1 class="hero__heading">Build The Community Your Fans Will Love</h1>
+          <p class="hero__paragraph">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <button class="hero__btn">Get started for free</button>
+        </div>
+        <div class="hero__img">
+          <img src="images/illustration-mockups.svg" alt="web banner" />
+        </div>
+      </div>
+    </header>
+
+    <section class="section-grow">
+      <div class="reusable-container padd">
+        <div class="reusable-container__text">
+          <h2 class="reusable-container__heading">Grow Together</h2>
+          <p class="reusable-container__paragraph">
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
+          </p>
+        </div>
+        <div class="reusable-container__img">
+          <img
+            src="images/illustration-grow-together.svg"
+            alt="grow Together image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section-flow">
+      <div class="reusable-container gap">
+        <div class="reusable-container__img imgposition">
+          <img
+            src="images/illustration-flowing-conversation.svg"
+            alt="grow Together image"
+          />
+        </div>
+        <div class="reusable-container__text">
+          <h2 class="reusable-container__heading">Flowing Conversations</h2>
+          <p class="reusable-container__paragraph">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-users">
+      <div class="reusable-container padd">
+        <div class="reusable-container__text">
+          <h2 class="reusable-container__heading">Your Users</h2>
+          <p class="reusable-container__paragraph">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </div>
+        <div class="reusable-container__img">
+          <img
+            src="images/illustration-your-users.svg"
+            alt="grow Together image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta__container">
+        <h2 class="cta__heading">Ready to build your community?</h2>
+        <button class="hero__btn bigpadd">Get started for free</button>
+      </div>
+    </section>
+    <footer class="footer scroll-reveal">
+      <div class="container-footer">
+        <div class="container-footer__location">
+          <img
+            src="images/logo.svg"
+            alt="logo"
+            class="container-footer__logo"
+          />
+          <p class="container-footer__location-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+          <div class="container-footer__location-align">
+            <ion-icon class="icon" name="call-outline"></ion-icon>
+            <p class="container-footer__location-num">+1-543-123-4567</p>
+          </div>
+          <div class="container-footer__location-align">
+            <ion-icon class="icon" name="mail-outline"></ion-icon>
+            <p class="container-footer__location-email">example@huddle.com</p>
+          </div>
+        </div>
+        <div class="container-footer__contact">
+          <ul class="container-footer__contact-list">
+            <li>
+              <a class="container-footer__contact-link borderBottom" href="#"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a class="container-footer__contact-link borderBottom" href="#"
+                >What We Do</a
+              >
+            </li>
+            <li>
+              <a class="container-footer__contact-link borderBottom" href="#"
+                >FAG</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="container-footer__contact">
+          <ul class="container-footer__contact-list">
+            <li>
+              <a class="container-footer__contact-link borderBottom" href="#"
+                >Carrier</a
+              >
+            </li>
+            <li>
+              <a class="container-footer__contact-link borderBottom" href="#"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a class="container-footer__contact-link borderBottom" href="#"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="container-footer__socials">
+          <ul class="container-footer__contact-list socials-flex">
+            <li>
+              <a class="container-footer__contact-link" href="#"
+                ><ion-icon class="socials-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="container-footer__contact-link" href="#">
+                <ion-icon class="socials-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="container-footer__contact-link" href="#"
+                ><ion-icon class="socials-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
